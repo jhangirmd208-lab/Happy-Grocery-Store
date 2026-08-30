@@ -1,0 +1,8 @@
+{
+  "name": "Happy Grocery Store",
+  "description": "Happy Grocery Store in Jagjeetpur, Haridwar. Find store information, grocery categories, opening hours, contact details and directions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

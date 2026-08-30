@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #176B45;
+  --color-primary-hover: #0F5033;
+  --color-secondary: #4F9D69;
+  --color-accent: #F4B942;
+  --color-brand-bg: #FFFDF7;
+  --color-surface: #FFFFFF;
+  --color-main: #17231D;
+  --color-muted: #66736B;
+
+  --font-heading: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-main);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.lightbox-overlay {
+  background-color: rgba(23, 35, 29, 0.95);
+}
